@@ -39,6 +39,19 @@ select * from review_test;
 
 
 
+create table visitor(
+	v_no number(3) primary key,
+	v_title varchar2(20 char) not null,
+	v_txt  varchar2(200 char) not null,
+	v_date date not null
+);
+
+create sequence review_test_seq;
+
+insert into review_test values(review_test_seq.nextval,
+'aaaaaaaaa', 'asdasdasd', sysdate);
+
+select * from review_test;
 
 
 

@@ -12,6 +12,7 @@ public class HC extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	
 		request.setAttribute("contentPage", "home.jsp");
+		request.setAttribute("contentPage", "jsp/visitor/visitor.jsp");
 		request.getRequestDispatcher("index.jsp").forward(request, response);
 	}
 
