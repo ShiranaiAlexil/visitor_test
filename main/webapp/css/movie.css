@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+#mTbl{
+	margin-top : 50px;
+	border : red solid 5px;
+	width: 500px;
+	height: 200px;
+	background-color: black;
+	color: white;
+}
+#mTbl button{
+	width : 100%;
+	height : 32px;
+	color : red;
+	background-color : white;
+	font-size : 15pt;
+	text-align: center;
+}
+#mTbl2{
+	margin-top : 10px;
+	border :gray solid 1px;
+	width: 650px;
+	height: 200px;
+}
+#mTbl2 button{
+	color: black;
+	background-color: white;
+	height: 30px;
+}
+.m_td1{
+	width: 50%;
+}
+
+
+#movieImg{
+	width: 100px;
+}
+
+#tbl-detail{
+	border: 2px solid black;
+	font-size: 25pt;
+}
+#tbl-detail img{
+	width: 500px;
+}
+#tbl-detail td{
+	border-bottom: 1px solid red;
+}
+.detail-td{
+	width: 30%;
+}
+
+
+
+
+

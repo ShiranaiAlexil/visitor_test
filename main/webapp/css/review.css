@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* review main */
+#tbl-review{
+	border :  black solid 2px;
+	width: 80%;
+	height: 60px;
+}
+.r-td-title{
+	font-size: 15pt;
+	padding-left: 30px;
+	height: 80px;
+}
+.r-td-title a{
+	color: blue;
+}
+
+#tbl-review2{
+	border: black solid 1px;
+	width: 80%;
+	height: 150px;
+}
+.r-td1{
+	padding-left : 30px;
+	font-size:13pt;
+	width: 60%;
+}
+.r-td1:hover{
+	font-weight:600;
+}
+.r-tr1:hover {
+	background-color: #fafdbb;
+	cursor: pointer;
+}
+
+
+
+
+/* reivew detail */
+
+#tbl-detail{
+	width: 600px;
+	height: 600px;
+}
+.d-td1{
+	padding : 10px;
+	height: 50px;
+	width: 100px;
+	text-align: center;
+}
+.d-td2{
+	padding : 10px;
+}
+.d-td3{
+	padding : 10px;
+	border-top: black solid 1px;;
+	height: 50px;
+	text-align: right;
+}
+.d-td3 a{
+	color: blue;
+}
+button {
+	width:70px;
+	height:40px;
+	font-size:10pt;
+	font-weight:600;
+	color: white;
+	background-color: black;
+}
+
+
+
+
