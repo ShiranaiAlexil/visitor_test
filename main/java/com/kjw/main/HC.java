@@ -15,7 +15,7 @@ public class HC extends HttpServlet {
 
 		
 		VisitorDAO.countVistor(request);
-//		request.setAttribute("contentPage", "home.jsp");
+		request.setAttribute("contentPage", "home.jsp");
 		request.setAttribute("contentPage", "jsp/visitor/visitor.jsp");
 		request.getRequestDispatcher("index.jsp").forward(request, response);
 	}

@@ -5,8 +5,10 @@ import javax.servlet.http.HttpServletRequest;
 public class VisitorDAO {
 
 	public static void countVistor(HttpServletRequest request) {
-		// TODO Auto-generated method stub
 		
+		String username = request.getParameter("username");
+		System.out.println("Submitted Username: " + username);
+
 	}
 
 }
