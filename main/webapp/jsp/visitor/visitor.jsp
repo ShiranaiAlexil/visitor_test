@@ -5,13 +5,18 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+
+
+
+
+
 </head>
 <body>
 
 
-<form action="VisitorC">
-	<div style="background: lime;">방문자 수 : ${visitor }</div>
-</form>
+	<form action="VisitorC">
+		<div style="background: lime;">방문자 수 : ${visitor }</div>
+	</form>
 
 
 
