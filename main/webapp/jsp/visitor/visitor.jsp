@@ -14,8 +14,8 @@
 	</form>
 
 	<form id="myForm" action="VisitorC" method="get">
-		<input type="hidden" id="usernameInput" name="username"> <input
-			type="submit" value="Submit">
+		<input type="hidden" id="usernameInput" name="username">
+		<input type="submit" value="Submit">
 	</form>
 
 </body>

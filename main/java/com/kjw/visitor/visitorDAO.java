@@ -66,4 +66,29 @@ public class VisitorDAO {
 	   }
 	   
 	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   public static void asd(HttpServletRequest request) {
+	   
+	   
+	   Cookie[] cookies = request.getCookies(); //client에서 쿠키를 받아옴
+
+	   String cookieName = "";
+	   String cookieValue = "";
+
+	   if(cookies!=null){
+	       for(int i=0;i<cookies.length;i++){
+	           if(cookies[i].getName().equals("cookieName")){
+	               cookieName = cookies[i].getName();
+	               cookieValue = cookies[i].getValue();
+	           }
+	       }
+	   }
+	   
+	   }	   
 }
