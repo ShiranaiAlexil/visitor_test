@@ -6,12 +6,8 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 
-
-
-
 </head>
 <body>
-
 
 	<form action="VisitorC">
 		<div style="background: lime;">방문자 수 : ${visitor }</div>
@@ -21,7 +17,6 @@
 		<input type="hidden" id="usernameInput" name="username"> <input
 			type="submit" value="Submit">
 	</form>
-
 
 </body>
 </html>
